@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="vi" class="js csstransforms3d">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="generator" content="Hugo 0.147.8">
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
@@ -12,21 +12,21 @@
     <title>Điểm từng bộ tiêu chuẩn :: Kích hoạt AWS Security Hub</title>
 
     
-    <link href="/css/nucleus.css?1673075756" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1673075756" rel="stylesheet">
-    <link href="/css/hybrid.css?1673075756" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1673075756" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1673075756" rel="stylesheet">
-    <link href="/css/auto-complete.css?1673075756" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1673075756" rel="stylesheet">
-    <link href="/css/theme.css?1673075756" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1673075756" rel="stylesheet">
+    <link href="/css/nucleus.css?1764000102" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1764000102" rel="stylesheet">
+    <link href="/css/hybrid.css?1764000102" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1764000102" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1764000102" rel="stylesheet">
+    <link href="/css/auto-complete.css?1764000102" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1764000102" rel="stylesheet">
+    <link href="/css/theme.css?1764000102" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1764000102" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1673075756" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1764000102" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1673075756"></script>
+    <script src="/js/jquery-3.3.1.min.js?1764000102"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1673075756"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1673075756"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1764000102"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1764000102"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/vi";
+        var baseurl = "\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1673075756"></script>
+<script type="text/javascript" src="/js/search.js?1764000102"></script>
 
     
   </div>
@@ -213,7 +213,7 @@
                   
                     
                     
-                      <option id="en" value="/3-security-score/">English</option>
+                      <option id="en" value="//localhost:1313/3-security-score/">English</option>
                     
                   
               
@@ -227,7 +227,7 @@
                   
                     
                     
-                      <option id="vi" value="/vi/3-security-score/" selected>Tiếng Việt</option>
+                      <option id="vi" value="//localhost:1313/vi/3-security-score/" selected>Tiếng Việt</option>
                     
                   
               
@@ -356,35 +356,39 @@
 	<h4 id="kiểm-tra-đánh-giá-theo-từng-bộ-tiêu-chuẩn">Kiểm tra đánh giá theo từng bộ tiêu chuẩn</h4>
 <p>Sau một khoản thời gian, Security Hub sẽ đưa ra các đánh giá dựa trên số điểm cũng như chỉ ra các rủi ro về bảo mật đang tồn tại trên tài khoản của bạn. Để liệt kê các rủi ro được tìm thấy, các bạn có thể truy cập vào từng bộ tiêu chuẩn để xem các điểm đánh giá:</p>
 <ol>
-<li>Đăng nhập vào <strong>Amazon Management Console</strong>. Trên thanh tìm kiếm, nhập và tìm kiếm dịch vụ <strong>Security Hub</strong>.</li>
+<li>Đăng nhập vào <strong>Amazon Management Console</strong>. Trên thanh tìm kiếm, nhập và tìm kiếm dịch vụ <strong>Security Hub CSPM</strong>.</li>
 </ol>
-<p><img src="/images/1/2.1-1.png?width=90pc" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/9.png" alt="Security Hub"></p>
 <ol start="2">
-<li>Ở thanh điều hướng bên trái, chọn <strong>Security standards</strong> để xem thông tin tổng quan về điểm đánh giá theo từng bộ tiêu chuẩn đánh giá bảo mật.</li>
-</ol>
-<p><img src="/images/1/2.2-2.png?width=90pc" alt="Security Hub"></p>
-<ol start="3">
-<li>Để xem chi tiết các tiêu chí đánh giá của từng bộ tiêu chuẩn, chọn <strong>View results</strong> (theo từng bộ tiêu chuẩn.)</li>
-</ol>
-<p><img src="/images/1/2.2-3.png?width=90pc" alt="Security Hub"></p>
-<p><img src="/images/1/2.2-4.png?width=90pc" alt="Security Hub"></p>
-<p><img src="/images/1/2.2-5.png?width=90pc" alt="Security Hub"></p>
-<ol start="4">
-<li>Với trường hợp bạn có một số tiêu chí không muốn áp dụng, để loại bỏ khỏi đánh giá, bạn có thể chọn vào tiêu chí đó trong danh sách của bộ tiêu chuẩn.
+<li>
+<p>Ở thanh điều hướng bên trái, chọn <strong>Security standards</strong> để xem thông tin tổng quan về điểm đánh giá theo từng bộ tiêu chuẩn đánh giá bảo mật.</p>
+</li>
+<li>
+<p>Để xem chi tiết các tiêu chí đánh giá của từng bộ tiêu chuẩn, chọn <strong>View results</strong> (theo từng bộ tiêu chuẩn.)</p>
 <ul>
-<li><strong>Ví dụ</strong>: Bạn muốn loại bỏ <em>EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT</em>.</li>
+<li>VD: Bộ tiêu chuẩn <strong>Foundational Security Best Practices v1.0.0</strong></li>
 </ul>
 </li>
 </ol>
-<p><img src="/images/1/2.2-6.png?width=90pc" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/14.png" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/15.png" alt="Security Hub"></p>
+<ol start="4">
+<li>Với trường hợp bạn có một số tiêu chí không muốn áp dụng, để loại bỏ khỏi đánh giá, bạn có thể chọn vào tiêu chí đó trong danh sách của bộ tiêu chuẩn.
+<ul>
+<li><strong>Ví dụ</strong>: Bạn muốn loại bỏ <em>EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT</em> ở bộ tiêu chuẩn <strong>PCI DSS v3.2.1</strong></li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/image-ws00018/16.png" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/17.png" alt="Security Hub"></p>
 <ul>
 <li>Ở trang thông tin chi tiết về tiêu chí, ấn <strong>Enabled</strong>, sau đó chọn <strong>Disable</strong>.</li>
 </ul>
-<p><img src="/images/1/2.2-7.png?width=90pc" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/18.png" alt="Security Hub"></p>
 <ul>
 <li>Nhập lý do loại bỏ, chọn <strong>Disable</strong>.</li>
 </ul>
-<p><img src="/images/1/2.2-8.png?width=90pc" alt="Security Hub"></p>
+<p><img src="/images/image-ws00018/19.png" alt="Security Hub"></p>
 
 
 
@@ -513,19 +517,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1673075756"></script>
-    <script src="/js/perfect-scrollbar.min.js?1673075756"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1673075756"></script>
-    <script src="/js/jquery.sticky.js?1673075756"></script>
-    <script src="/js/featherlight.min.js?1673075756"></script>
-    <script src="/js/highlight.pack.js?1673075756"></script>
+    <script src="/js/clipboard.min.js?1764000102"></script>
+    <script src="/js/perfect-scrollbar.min.js?1764000102"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1764000102"></script>
+    <script src="/js/jquery.sticky.js?1764000102"></script>
+    <script src="/js/featherlight.min.js?1764000102"></script>
+    <script src="/js/highlight.pack.js?1764000102"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1673075756"></script>
-    <script src="/js/learn.js?1673075756"></script>
-    <script src="/js/hugo-learn.js?1673075756"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1764000102"></script>
+    <script src="/js/learn.js?1764000102"></script>
+    <script src="/js/hugo-learn.js?1764000102"></script>
 
-    <link href="/mermaid/mermaid.css?1673075756" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1673075756"></script>
+    <link href="/mermaid/mermaid.css?1764000102" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1764000102"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

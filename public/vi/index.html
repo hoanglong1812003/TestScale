@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="vi" class="js csstransforms3d">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="generator" content="Hugo 0.147.8">
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
@@ -12,21 +12,21 @@
     <title>Bắt đầu với AWS Security Hub :: Kích hoạt AWS Security Hub</title>
 
     
-    <link href="/css/nucleus.css?1673075756" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1673075756" rel="stylesheet">
-    <link href="/css/hybrid.css?1673075756" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1673075756" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1673075756" rel="stylesheet">
-    <link href="/css/auto-complete.css?1673075756" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1673075756" rel="stylesheet">
-    <link href="/css/theme.css?1673075756" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1673075756" rel="stylesheet">
+    <link href="/css/nucleus.css?1764000102" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1764000102" rel="stylesheet">
+    <link href="/css/hybrid.css?1764000102" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1764000102" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1764000102" rel="stylesheet">
+    <link href="/css/auto-complete.css?1764000102" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1764000102" rel="stylesheet">
+    <link href="/css/theme.css?1764000102" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1764000102" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1673075756" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1764000102" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1673075756"></script>
+    <script src="/js/jquery-3.3.1.min.js?1764000102"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1673075756"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1673075756"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1764000102"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1764000102"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/vi";
+        var baseurl = "\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1673075756"></script>
+<script type="text/javascript" src="/js/search.js?1764000102"></script>
 
     
   </div>
@@ -213,7 +213,7 @@
                   
                     
                     
-                      <option id="en" value="/">English</option>
+                      <option id="en" value="//localhost:1313/">English</option>
                     
                   
               
@@ -227,7 +227,7 @@
                   
                     
                     
-                      <option id="vi" value="/vi/" selected>Tiếng Việt</option>
+                      <option id="vi" value="//localhost:1313/vi/" selected>Tiếng Việt</option>
                     
                   
               
@@ -311,40 +311,40 @@
 <p>Thông thường, chi phí sẽ ít hơn $1 mỗi tháng nếu tài khoản của bạn chỉ sử dụng cho mục đích thử nghiệm, luyện tập và không thực hiện những cuộc tấn công giả lập.</p>
 <p><strong>Bảng giá AWS Security Hub:</strong></p>
 <table>
-<thead>
-<tr>
-<th>Nội dung</th>
-<th>Chi phí</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Kiểm tra bảo mật</strong></td>
-<td>100,000 lần đầu tiên =&gt; $0.0010/check</td>
-</tr>
-<tr>
-<td></td>
-<td>100,001 – 500,000 =&gt; $0.0008/check</td>
-</tr>
-<tr>
-<td></td>
-<td>500,001+ =&gt; $0.0005/check</td>
-</tr>
-<tr>
-<td><strong>Tìm các sự kiện tấn công</strong></td>
-<td>10,000 lần đầu tiên =&gt; miễn phí</td>
-</tr>
-<tr>
-<td></td>
-<td>10,001+ =&gt; $0.00003/lần</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Nội dung</th>
+          <th>Chi phí</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Kiểm tra bảo mật</strong></td>
+          <td>100,000 lần đầu tiên =&gt; $0.0010/check</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>100,001 – 500,000 =&gt; $0.0008/check</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>500,001+ =&gt; $0.0005/check</td>
+      </tr>
+      <tr>
+          <td><strong>Tìm các sự kiện tấn công</strong></td>
+          <td>10,000 lần đầu tiên =&gt; miễn phí</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>10,001+ =&gt; $0.00003/lần</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="nội-dung">Nội dung</h4>
 <ol>
-<li><a href="1-security-standards/">Các tiêu chuẩn bảo mật</a></li>
-<li><a href="2-enable-sec-hub/">Kích hoạt Security Hub trên Console</a></li>
-<li><a href="3-security-score/">Kiểm tra điểm đánh giá theo tiêu chuẩn</a></li>
+<li><a href="/vi/1-security-standards/">Các tiêu chuẩn bảo mật</a></li>
+<li><a href="/vi/2-enable-sec-hub/">Kích hoạt Security Hub trên Console</a></li>
+<li><a href="/vi/3-security-score/">Kiểm tra điểm đánh giá theo tiêu chuẩn</a></li>
 </ol>
 	
   
@@ -450,6 +450,8 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/vi/4-cleanup/" title="Dọn dẹp tài nguyên"> <i class="fa fa-chevron-left"></i></a>
+		
 		
 			<a class="nav nav-next" href="/vi/1-security-standards/" title="Các tiêu chuẩn bảo mật" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
@@ -461,19 +463,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1673075756"></script>
-    <script src="/js/perfect-scrollbar.min.js?1673075756"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1673075756"></script>
-    <script src="/js/jquery.sticky.js?1673075756"></script>
-    <script src="/js/featherlight.min.js?1673075756"></script>
-    <script src="/js/highlight.pack.js?1673075756"></script>
+    <script src="/js/clipboard.min.js?1764000102"></script>
+    <script src="/js/perfect-scrollbar.min.js?1764000102"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1764000102"></script>
+    <script src="/js/jquery.sticky.js?1764000102"></script>
+    <script src="/js/featherlight.min.js?1764000102"></script>
+    <script src="/js/highlight.pack.js?1764000102"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1673075756"></script>
-    <script src="/js/learn.js?1673075756"></script>
-    <script src="/js/hugo-learn.js?1673075756"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1764000102"></script>
+    <script src="/js/learn.js?1764000102"></script>
+    <script src="/js/hugo-learn.js?1764000102"></script>
 
-    <link href="/mermaid/mermaid.css?1673075756" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1673075756"></script>
+    <link href="/mermaid/mermaid.css?1764000102" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1764000102"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
