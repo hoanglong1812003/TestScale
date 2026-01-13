@@ -17,31 +17,28 @@ pre = "<b>4. </b>"
     - Cuộn xuống dưới cùng và chọn Disable AWS Security Hub
     - Trong prompt, chọn Disable AWS Security Hub
 
-![Security Hub](/images/image-ws00018/20.png)
+![Security Hub](/images/updateimage/20.png)
 
 #### Bỏ kích hoạt AWS Config
 
 3. Truy cập **AWS Config**, ở bên phải chọn **Settings**, chọn **Stop recording**
 
-![Security Hub](/images/image-ws00018/21.png)
+![Security Hub](/images/updateimage/21.png)
 
 #### Xóa S3 Bucket
 4. Truy cập **AWS S3 Bucket**
 
-![Security Hub](/images/image-ws00018/22.png)
+![Security Hub](/images/updateimage/22.png)
 
 - Chọn bucket vừa tạo, chọn **Empty**
 
-![Security Hub](/images/image-ws00018/23.png)
+![Security Hub](/images/updateimage/23.png)
 
 - Nhập *parmanently delete*, chọn **Empty**.
 
-![Security Hub](/images/image-ws00018/24.png)
+![Security Hub](/images/updateimage/24.png)
 
 - Chọn bucket vừa tạo, chọn **Delete**
 
-![Security Hub](/images/image-ws00018/25.png)
-
 - Nhập tên bucket, chọn **Delete bucket**
 
-![Security Hub](/images/image-ws00018/26.png)

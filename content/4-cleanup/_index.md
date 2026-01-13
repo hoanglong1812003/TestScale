@@ -17,32 +17,31 @@ In this section, you will disable AWS Security Hub to avoid incurring additional
    - Scroll to the bottom and choose **Disable AWS Security Hub**
    - In the prompt, select **Disable AWS Security Hub**
 
-![Security Hub](/images/image-ws00018/20.png)
+![Security Hub](/images/updateimage/20.png)
 
 #### Disable AWS Config
 
 3. Go to **AWS Config**, on the right select **Settings**, then choose **Stop recording**
 
-![Security Hub](/images/image-ws00018/21.png)
+![Security Hub](/images/updateimage/21.png)
 
 #### Delete S3 Bucket
 
 4. Go to **AWS S3 Bucket**
 
-![Security Hub](/images/image-ws00018/22.png)
+![Security Hub](/images/updateimage/22.png)
 
 - Select the bucket you created, then choose **Empty**
 
-![Security Hub](/images/image-ws00018/23.png)
+![Security Hub](/images/updateimage/23.png)
 
 - Type *permanently delete*, then choose **Empty**.
 
-![Security Hub](/images/image-ws00018/24.png)
+![Security Hub](/images/updateimage/24.png)
 
 - Select the same bucket again and choose **Delete**
 
-![Security Hub](/images/image-ws00018/25.png)
 
 - Enter the bucket name and choose **Delete bucket**
 
-![Security Hub](/images/image-ws00018/26.png)
+

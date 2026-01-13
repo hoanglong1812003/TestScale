@@ -11,7 +11,7 @@ After some time, Security Hub will generate evaluations based on scores and high
 
 1. Log in to the **Amazon Management Console**. In the search bar, type and search for **Security Hub CSPM**.
 
-![Security Hub](/images/image-ws00018/9.png)
+![Security Hub](/images/updateimage/13.png)
 
 2. In the left navigation panel, select **Security standards** to view the overall assessment scores for each security framework.
 
@@ -19,22 +19,20 @@ After some time, Security Hub will generate evaluations based on scores and high
 
    - Example: The **Foundational Security Best Practices v1.0.0** standard
 
-![Security Hub](/images/image-ws00018/14.png)
+![Security Hub](/images/updateimage/14.png)
 
-![Security Hub](/images/image-ws00018/15.png)
-
+![Security Hub](/images/updateimage/15.png)
 4. If there are certain controls you do not want to apply, you can remove them from the evaluation. Select the specific control in the list of the corresponding standard.
 
    - **Example**: You want to disable *EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT* in the **PCI DSS v3.2.1** standard.
 
-![Security Hub](/images/image-ws00018/16.png)
+![Security Hub](/images/updateimage/16.png)
 
-![Security Hub](/images/image-ws00018/17.png)
-
+![Security Hub](/images/updateimage/17.png)
 - On the control details page, click **Enabled**, then choose **Disable**.
 
-![Security Hub](/images/image-ws00018/18.png)
+![Security Hub](/images/updateimage/18.png)
 
 - Enter a reason for disabling the control, then click **Disable**.
 
-![Security Hub](/images/image-ws00018/19.png)
+![Security Hub](/images/updateimage/19.png)
