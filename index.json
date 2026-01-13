@@ -22,7 +22,7 @@
 },
 {
 	"uri": "https://hoanglong1812003.github.io/TestScale/3-security-score/",
-	"title": "Score by Security Standards",
+	"title": "Score by Security Standardss",
 	"tags": [],
 	"description": "",
 	"content": "Review Evaluation by Each Security Standard After some time, Security Hub will generate evaluations based on scores and highlight existing security risks in your account. To list the detected risks, you can navigate into each security standard to view the assessment results:\nLog in to the Amazon Management Console. In the search bar, type and search for Security Hub CSPM. In the left navigation panel, select Security standards to view the overall assessment scores for each security framework.\nTo view detailed evaluation criteria for each standard, choose View results (for the respective security standard).\nExample: The Foundational Security Best Practices v1.0.0 standard 4. If there are certain controls you do not want to apply, you can remove them from the evaluation. Select the specific control in the list of the corresponding standard.\nExample: You want to disable EC2 instances managed by Systems Manager should have an association compliance status of COMPLIANT in the PCI DSS v3.2.1 standard. On the control details page, click Enabled, then choose Disable. Enter a reason for disabling the control, then click Disable. "
