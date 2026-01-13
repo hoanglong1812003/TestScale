@@ -1,5 +1,5 @@
 +++
-title = "Score by Security Standards"
+title = "Score by Security Standardss"
 weight = 3
 chapter = false
 pre = "<b>3. </b>"
